@@ -5,7 +5,7 @@ import {
   useRouteMatch,
   useParams,
 } from "react-router-dom";
-import Banking from "./Savings-Banking";
+import Banking from "./Banking";
 
 class Savings extends Component {
   constructor(props) {

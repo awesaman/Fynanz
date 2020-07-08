@@ -4,38 +4,62 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Savings from "./components/Savings";
-import Banking from "./components/Savings-Banking";
-import CreditCardsAndLoans from "./components/Savings-CreditCardsAndLoans";
-import ExampleDistribution from "./components/Savings-ExampleDistribution";
-import Investments from "./components/Investments";
-import Insurance from "./components/Insurance";
-import Taxes from "./components/Taxes";
-import Retirement from "./components/Retirement";
-import RealEstate from "./components/RealEstate";
-import EstatePlanning from "./components/EstatePlanning";
+import Savings from "./components/Savings/Savings";
+import Banking from "./components/Savings/Banking";
+import CreditCardsAndLoans from "./components/Savings/CreditCardsAndLoans";
+import ExampleDistribution from "./components/Savings/ExampleDistribution";
+import Investments from "./components/Investments/Investments";
+import Indexes from "./components/Investments/Indexes";
+import Bonds from "./components/Investments/Bonds";
+import MutualFunds from "./components/Investments/MutualFunds";
+import Options from "./components/Investments/Options";
+import Strategies from "./components/Investments/Strategies";
+import Insurance from "./components/Insurance/Insurance";
+import House from "./components/Insurance/House";
+import Life from "./components/Insurance/Life";
+import Car from "./components/Insurance/Car";
+import Health from "./components/Insurance/Health";
+import Taxes from "./components/Taxes/Taxes";
+import FederalIncomeTax from "./components/Taxes/FederalIncomeTax";
+import StateTax from "./components/Taxes/StateTax";
+import StockTax from "./components/Taxes/StockTax";
+import Retirement from "./components/Retirement/Retirement";
+import RealEstate from "./components/RealEstate/RealEstate";
+import EstatePlanning from "./components/EstatePlanning/EstatePlanning";
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        <Route path="/Savings" component={Savings} />
-        <Route path="/Savings-Banking" component={Banking} />
+        <Route path="/savings" component={Savings} />
+        <Route path="/savings-banking" component={Banking} />
         <Route
-          path="/Savings-CreditCardsAndLoans"
+          path="/savings-creditcardsandloans"
           component={CreditCardsAndLoans}
         />
         <Route
-          path="/Savings-ExampleDistribution"
+          path="/savings-exampledistribution"
           component={ExampleDistribution}
         />
-        <Route path="/Investments" component={Investments} />
-        <Route path="/Insurance" component={Insurance} />
-        <Route path="/Taxes" component={Taxes} />
-        <Route path="/Retirement" component={Retirement} />
-        <Route path="/RealEstate" component={RealEstate} />
-        <Route path="/EstatePlanning" component={EstatePlanning} />
+        <Route path="/investments" component={Investments} />
+        <Route path="/investments-indexes" component={Indexes} />
+        <Route path="/investments-bonds" component={Bonds} />
+        <Route path="/investments-mutualfunds" component={MutualFunds} />
+        <Route path="/investments-options" component={Options} />
+        <Route path="/investments-strategies" component={Strategies} />
+        <Route path="/insurance" component={Insurance} />
+        <Route path="/insurance-house" component={House} />
+        <Route path="/insurance-life" component={Life} />
+        <Route path="/insurance-car" component={Car} />
+        <Route path="/insurance-health" component={Health} />
+        <Route path="/taxes" component={Taxes} />
+        <Route path="/taxes-federalincometax" component={FederalIncomeTax} />
+        <Route path="/taxes-statetax" component={StateTax} />
+        <Route path="/taxes-stocktax" component={StockTax} />
+        <Route path="/retirement" component={Retirement} />
+        <Route path="/realestate" component={RealEstate} />
+        <Route path="/estateplanning" component={EstatePlanning} />
       </div>
     </Router>
   );
