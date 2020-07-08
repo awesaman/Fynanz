@@ -1,0 +1,36 @@
+.main-body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.navbar-entry {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.drop {
+  display: inline-block;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover,
+.navbar-entry:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: WHITE;
+  padding: 10px;
+}
