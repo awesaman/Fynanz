@@ -1,6 +1,6 @@
 p,
 li {
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 h3 {
@@ -75,4 +75,21 @@ h3 {
 
 .dropdown-link:hover {
   background-color: rgba(0, 170, 0, 0.95);
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
 }

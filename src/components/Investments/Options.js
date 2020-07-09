@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import PUTvsCALL from "../../images/PUTvsCALL.jpg";
+import SellCallAndPut from "../../images/SellCallAndPut.jpg";
+import SellPutSellCall from "../../images/SellPutSellCall.jpg";
 
 class Options extends Component {
   constructor(props) {
@@ -78,6 +81,7 @@ class Options extends Component {
             decrease below a certain value (strike price - premium)
           </li>
         </ul>
+        <img src={PUTvsCALL} className="image" />
         <h3>BUYING vs. SELLING Options</h3>
         <ul>
           <li>You can BUY or SELL a CALL or PUT option </li>
@@ -116,6 +120,8 @@ class Options extends Component {
             </li>
           </ul>
         </ul>
+        <img src={SellCallAndPut} className="image" />
+        <img src={SellPutSellCall} className="image" />
         <h3>NAKED vs. COVERED Options</h3>
         <ul>
           <li>

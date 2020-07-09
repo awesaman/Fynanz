@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BondMatrix from "../../images/BondMatrix.jpg";
 
 class Bonds extends Component {
   constructor(props) {
@@ -66,6 +67,8 @@ class Bonds extends Component {
             <li>In the long term, dividend investing yields much more</li>
           </ul>
         </ul>
+        <h3>Bond Matrix</h3>
+        <img src={BondMatrix} className="image" />
       </div>
     );
   }

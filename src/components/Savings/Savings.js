@@ -1,11 +1,4 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  useRouteMatch,
-  useParams,
-} from "react-router-dom";
-import Banking from "./Banking";
 
 class Savings extends Component {
   constructor(props) {
@@ -27,11 +20,14 @@ class Savings extends Component {
         <h3>What do we spend money on?</h3>
         <p>There are 3 types of expenses:</p>
         <ul>
-          <li>Regulatory - food, rent, utilities</li>
+          <li>Fixed / Necessary - food, rent, utilities, monthly payments</li>
           <li>
-            Discretionary - clothes, entertainment, and anything non-essential
+            Variable / Discretionary - clothes, entertainment, and anything
+            non-essential
           </li>
-          <li>Capital - larger items</li>
+          <li>
+            Periodic - longer term expenses on the scale of quaters or years
+          </li>
         </ul>
         <h3>Hope for the best, plan for the worst.</h3>
         <p>
