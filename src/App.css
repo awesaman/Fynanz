@@ -1,6 +1,26 @@
+p,
+li {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.logo {
+  height: 20px;
+}
+
+.image {
+  width: 100%;
+}
+.image-handwritten {
+  width: 120%;
+}
+
 .main-body {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .main-navbar {

@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../images/Logo.svg";
 
 class Navbar extends Component {
   render() {
     return (
       <nav className="main-navbar">
         <ul>
-          {/* change first one to be a logo */}
           <li className="navbar-entry">
             <Link to="/" className="link">
-              Home
+              <img src={Logo} alt="Home" className="logo" />
             </Link>
           </li>
           <div className="drop">
@@ -37,6 +37,9 @@ class Navbar extends Component {
               </Link>
             </li>
             <div className="dropdown">
+              <Link to="/investments-dividendstocks" className="dropdown-link">
+                Dividend Stocks
+              </Link>
               <Link to="/investments-indexes" className="dropdown-link">
                 Indexes
               </Link>
@@ -93,21 +96,50 @@ class Navbar extends Component {
               </Link>
             </div>
           </div>
-          <li className="navbar-entry">
-            <Link to="/retirement" className="link">
-              Retirement
-            </Link>
-          </li>
-          <li className="navbar-entry">
-            <Link to="/RealEstate" className="link">
-              Real Estate
-            </Link>
-          </li>
-          <li className="navbar-entry">
-            <Link to="/EstatePlanning" className="link">
-              Estate Planning
-            </Link>
-          </li>
+          <div className="drop">
+            <li className="navbar-entry">
+              <Link to="/retirement" className="link">
+                Retirement
+              </Link>
+            </li>
+            <div className="dropdown">
+              <Link
+                to="/retirement-retirementsavings"
+                className="dropdown-link"
+              >
+                Retirement Savings
+              </Link>
+              <Link to="/retirement-incomeplanning" className="dropdown-link">
+                Income Planning
+              </Link>
+            </div>
+          </div>
+          <div className="drop">
+            <li className="navbar-entry">
+              <Link to="/realestate" className="link">
+                Real Estate
+              </Link>
+            </li>
+            <div className="dropdown">
+              <Link to="/realestate-rentanapartment" className="dropdown-link">
+                Rent An Apartment
+              </Link>
+              <Link to="/realestate-buyahouse" className="dropdown-link">
+                Buy a House
+              </Link>
+              <Link to="/realestate-rentoutproperty" className="dropdown-link">
+                Rent Out Property
+              </Link>
+            </div>
+          </div>
+          <div className="drop">
+            <li className="navbar-entry">
+              <Link to="/estateplanning" className="link">
+                Estate Planning
+              </Link>
+            </li>
+            <div className="dropdown"></div>
+          </div>
         </ul>
       </nav>
     );
