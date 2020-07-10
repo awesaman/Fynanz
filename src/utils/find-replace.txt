@@ -1,0 +1,15 @@
+https://www.joydeepdeb.com/tools/find-replace.html
+
+\s\s+ replace with ' '
+
+</li></ul> replace with "]
+</li> </ul> replace with "]
+<ul> replace with [
+</ul> replace with ]
+<li> replace with "
+</li> replace with ",
+, ] replace with ]
+"] " replace with "], "
+"  replace with "
+{""}  replace with
+

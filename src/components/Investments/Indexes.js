@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import data from "../../data/Investments/Indexes.json";
+import nestedBullets from "../../utils/nestedBullets";
 
 class Indexes extends Component {
   constructor(props) {
@@ -8,36 +10,12 @@ class Indexes extends Component {
   render() {
     return (
       <div className="main-body">
-        <h1>Indexes</h1>
-        <p>
-          Indexes are specific collections of stocks that you can purchase all
-          at once.
-        </p>
-        <ul>
-          <li>
-            S&P 500 - indicator of how the market is doing - 500 best stocks
-          </li>
-          <li>
-            DOW Industrial Average - set of 30 stocks that represents the
-            average
-          </li>
-          <li>NASDAQ 100 - 100 top tech companies</li>
-          <li>Small cap (S&P 600), Mid Cap (S&P 400), Large Cap (S&P 500)</li>
-          <li>US (domestic) stocks</li>
-          <li>International stock</li>
-          <ul>
-            <li>Developed</li>
-            <li>Developing</li>
-          </ul>
-          <li>
-            ETF (Exchange Traded Funds) - trade the entire index at a time (Ex.
-            S&P 500)
-          </li>
-          <ul>
-            <li>Very similar to index funds (passive mutual funds)</li>
-          </ul>
-          <li>Bond Indexes - collections of bonds</li>
-        </ul>
+        <h1>{data.header}</h1>
+        <p>{data.intro}</p>
+        <h3>{data.subtopics[0].subheading}</h3>
+        <ul>{data.subtopics[0].list.map((s) => nestedBullets(s))}</ul>
+        <h3>{data.subtopics[1].subheading}</h3>
+        <ul>{data.subtopics[1].list.map((s) => nestedBullets(s))}</ul>
       </div>
     );
   }

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import data from "../../data/Savings/Savings.json";
+import nestedBullets from "../../utils/nestedBullets";
 
 class Savings extends Component {
   constructor(props) {
@@ -9,37 +11,16 @@ class Savings extends Component {
   render() {
     return (
       <div className="main-body">
-        {/* <Route path="/banking" component={Banking} /> */}
-        <h1>Savings</h1>
-        <h3>How much should you save?</h3>
-        <p>
-          About 15% is a good amount to set aside. This should be put into some
-          sort of retirement account. Your objective with this is to lower your
-          taxes.
-        </p>
-        <h3>What do we spend money on?</h3>
-        <p>There are 3 types of expenses:</p>
-        <ul>
-          <li>Fixed / Necessary - food, rent, utilities, monthly payments</li>
-          <li>
-            Variable / Discretionary - clothes, entertainment, and anything
-            non-essential
-          </li>
-          <li>
-            Periodic - longer term expenses on the scale of quaters or years
-          </li>
-        </ul>
-        <h3>Hope for the best, plan for the worst.</h3>
-        <p>
-          You should also have an emergency fund that can support you for 3-12
-          months in case something goes wrong
-        </p>
-        <h3>When can you use your savings?</h3>
-        <p>
-          Liquidity, in terms of finance, is defined as the ability to withdraw
-          and use money. Higher liquidity is preferred, but it usually comes at
-          the cost of lower interest rates.
-        </p>
+        <h1>{data.header}</h1>
+        <h3>{data.subtopics[0].subheading}</h3>
+        <p>{data.subtopics[0].par}</p>
+        <h3>{data.subtopics[1].subheading}</h3>
+        <p>{data.subtopics[1].par}</p>
+        <ul>{data.subtopics[1].list.map((s) => nestedBullets(s))}</ul>
+        <h3>{data.subtopics[2].subheading}</h3>
+        <p>{data.subtopics[2].par}</p>
+        <h3>{data.subtopics[3].subheading}</h3>
+        <p>{data.subtopics[3].par}</p>
       </div>
     );
   }

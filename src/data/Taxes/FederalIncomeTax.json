@@ -1,10 +1,24 @@
 {
-  "header": "",
+  "header": "Federal Income Tax",
   "intro": "",
   "subtopics": [
     {
-      "subheading": "",
-      "par": "",
+      "subheading": "Tax Brackets",
+      "par": "The table below shows the Marginal Income Tax Brackets. Every American has to pay these taxes for the ranges that their salary covers.",
+      "list": []
+    },
+    {
+      "subheading": "Extra Info",
+      "par": "The tables below show the difference between the tax calculations for someone who puts as much money as possible into a 401k versus someone who doesn't.",
+      "list": [
+        "Standard Deduction - this amount ($12,500) is deducted from your total salary before your taxes are calculated. It's the only nice thing about taxes.",
+        "The government also charges a FICA tax (Federal Insurance Contributions Act) that contributes towards Social Security and Medicare. This is charged at 7.65%",
+        "You can defer you taxes to later (retirement, when your expnses and taxes are lower) to deduct even more from the taxes that you pay."
+      ]
+    },
+    {
+      "subheading": "Extra Info",
+      "par": "The bottom line is, invest as much money as you can into your retirement accounts like your 401k and Roth IRA because it saves thousands.",
       "list": []
     }
   ]

@@ -1,11 +1,38 @@
 {
-  "header": "",
+  "header": "Dividend Stocks",
   "intro": "",
   "subtopics": [
     {
-      "subheading": "",
+      "subheading": "What is Dividend?",
+      "par": "Some companies pay a certain percentage of their profits, called dividends, to their investors.",
+      "list": [
+        "1-5% of the stock price per year, paid quarterly ",
+        " S&P 500 gives about 2%, so investing in the market long term pays good dividend",
+        [
+          " Keeping a dividend stock for 20 years will likely result in more coming from the dividend than the stock itself ",
+          "Only do this with stocks that will last a long long time ",
+          " Make sure you reinvest the dividends, because it will compound "
+        ]
+      ]
+    },
+    {
+      "subheading": "Which stocks pay dividend?",
       "par": "",
-      "list": []
+      "list": [
+        "Most value companies pay dividend ",
+        "Most growth companies don’t pay dividend ",
+        "Look in the top 100 companies in the S&P 500, and the market itself ",
+        "There are also ETFs for dividend stocks only, like VIG "
+      ]
+    },
+    {
+      "subheading": "Vocabulary + Info",
+      "par": "Always account for stock appreciation, resulting in total return. The chart below shows stock appreciation vs. total return.",
+      "list": [
+        "Dividend amount - the dollar amount that is provided ",
+        " Dividend yield - the percentage of the stock price that the dividend amount is ",
+        "Total Return = Stock Appreciation + Dividend"
+      ]
     }
   ]
 }

@@ -1,11 +1,36 @@
 {
-  "header": "",
+  "header": "Banking",
   "intro": "",
   "subtopics": [
     {
-      "subheading": "",
+      "subheading": "Types of Bank Accounts",
       "par": "",
-      "list": []
+      "list": [
+        "Checking - interest < 0.1%",
+        [
+          "For your day-to-day trasactions",
+          "Use this for anything that you spend within 1 month"
+        ],
+        "Savings - interest ≈ 1.5% in 2020 for an online account",
+        [
+          "For anything fixed expenses that occur on a monthly or bimonthly basis ",
+          "Anything that doesn't fit in your CDs (this will be covered next) can go here ",
+          "ALWAYS get an ONLINE savings account rather than a bank savings account because the interest is 10 times better "
+        ],
+        "CD (Certificate of Deposit) - interest ≈ 1.5%-3% for 6 months in 2020",
+        [
+          "You cannot withdraw from these accounts for the length of the term that is specified, but these provide more interest (low liquidity).",
+          [
+            "If you break the CD term agreement, then you lose 3 months of interest generally. "
+          ],
+          "For your periodic expenses i.e. quarterly, annually, etc.",
+          "Flex CDs - a new type of CD from which you are allowed to withdraw during the term (highest liquidity).",
+          [
+            "Great place for your emergency funds and even your other expenses if you're getting a good interest rate ",
+            "Interest varies, but it can easily be higher than an online savings account at times."
+          ]
+        ]
+      ]
     }
   ]
 }

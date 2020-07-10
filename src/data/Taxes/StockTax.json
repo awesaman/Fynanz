@@ -1,11 +1,21 @@
 {
-  "header": "",
+  "header": "Taxes on Investments",
   "intro": "",
   "subtopics": [
     {
       "subheading": "",
-      "par": "",
-      "list": []
+      "par": "Here are the different ways we make money off of stocks AND how those earnings are taxed.",
+      "list": [
+        "Capital Gains - selling stocks for profit",
+        [
+          "Long Term - held for longer than 1 year (includes long-term options aka. leaps), charged @ 20% ",
+          "Short Term - held for less than 1 year, charged @ maximal marginal rate "
+        ],
+        "Interest Income - (not exactly stock related, unless you keep in brokerage instead of savings) charged @ maximal marginal rate ",
+        "Ordinary Income - for example, income from options is charged @ maximal marginal rate ",
+        "Dividend Tax - currently charged @ 22%",
+        "Capital Gains Distribution - mutual funds force you to pay taxes on their capital gains every year because you invest in them "
+      ]
     }
   ]
 }

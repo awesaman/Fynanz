@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import TaxTable from "../../images/TaxTable.png";
 import TaxBrackets from "../../images/TaxBrackets.png";
+import data from "../../data/Taxes/FederalIncomeTax.json";
+import nestedBullets from "../../utils/nestedBullets";
 
 class FederalIncomeTax extends Component {
   constructor(props) {
@@ -10,23 +12,15 @@ class FederalIncomeTax extends Component {
   render() {
     return (
       <div className="main-body">
-        <h1>Federal Income Tax</h1>
+        <h1>{data.header}</h1>
+        <h3>{data.subtopics[0].subheading}</h3>
+        <p>{data.subtopics[0].par}</p>
         <img src={TaxBrackets} className="image" />
-        <p>
-          The table above shows the Marginal Income Tax Brackets. Every American
-          has to pay these taxes for the ranges that their salary covers.
-        </p>
-        <p>
-          The tables below show the difference between the tax calculations for
-          someone who puts as much money as possible into a 401k versus someone
-          who doesn't.
-        </p>
+        <h3>{data.subtopics[1].subheading}</h3>
+        <ul>{data.subtopics[1].list.map((s) => nestedBullets(s))}</ul>
+        <p>{data.subtopics[1].par}</p>
         <img src={TaxTable} className="image-handwritten" />
-        <p>
-          The bottom line is, invest as much money as you can into your
-          retirement accounts like your 401k and Roth IRA because it saves
-          thousands.
-        </p>
+        <p>{data.subtopics[2].par}</p>
       </div>
     );
   }

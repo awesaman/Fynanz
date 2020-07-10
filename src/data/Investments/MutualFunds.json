@@ -1,11 +1,36 @@
 {
-  "header": "",
+  "header": "Mutual Funds",
   "intro": "",
   "subtopics": [
     {
-      "subheading": "",
-      "par": "",
+      "subheading": "What is a Mutual Fund?",
+      "par": "A mutual fund is a collection of specially chosen stocks, typically managed by a portfolio manager. They decide what they think is going to go up, and you invest in their ability to analyze. It's called a mutual fund because the money that the portfolio manager uses is an aggregation of all the funds given to them by their investors.",
       "list": []
+    },
+    {
+      "subheading": "Types of Mutual Funds",
+      "par": "",
+      "list": [
+        "Active",
+        [
+          "Costs roughly 1% of the total assets",
+          "The manager is a real person who (hopefully) adds value to your investment "
+        ],
+        "Passive (a.k.a. Index Funds)",
+        [
+          "Costs roughly .02-.2% of the total assets",
+          "The manager might be electronic, meaning they don’t add any real value ",
+          "Vanguard is the largest mutual fund company, and it's known for its passive investing "
+        ]
+      ]
+    },
+    {
+      "subheading": "What's the point?",
+      "par": "The objective of mutual funds is to beat the market return of roughly 8%.",
+      "list": [
+        "Only 10 - 15 % of mutual funds do this consistently",
+        "Only choose those who have been successful over a long period of time (3,5,10,15 year ranges)"
+      ]
     }
   ]
 }

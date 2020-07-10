@@ -24,6 +24,7 @@ h3 {
 }
 
 .main-navbar {
+  position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +81,7 @@ h3 {
 table {
   width: 100%;
   table-layout: fixed;
+  margin-bottom: 40px;
 }
 
 table,
@@ -92,4 +94,5 @@ td {
 th,
 td {
   padding: 15px;
+  font-size: 18px;
 }
