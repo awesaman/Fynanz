@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import data from "../../data/Insurance/Insurance.json";
+import nestedBullets from "../../utils/nestedBullets";
 
 class Insurance extends Component {
   constructor(props) {
@@ -8,32 +10,14 @@ class Insurance extends Component {
   render() {
     return (
       <div className="main-body">
-        <h1>Insurance</h1>
-        <h3>How Do Insurance Companies Make Money</h3>
-        <ol>
-          <li>Taking everyone’s premiums</li>
-          <li>Investing it, especially in bonds</li>
-          <li>
-            They end up with more in premiums than needs to be spent to cover
-            for people
-          </li>
-        </ol>
-        <h3>Good Insurance Companies</h3>
-        <ul>
-          <li>State Farm</li>
-          <li>All State</li>
-          <li>Amica</li>
-        </ul>
-        <h3>Good Health Insurance Companies</h3>
-        <ul>
-          <li>BlueCrossBlueShield</li>
-          <li>Cigna</li>
-          <li>United HealthCare</li>
-        </ul>
-        <p>
-          Never claim anything that you don’t need insurance’s help with because
-          when you report something, your premium goes up.
-        </p>
+        <h1>{data.header}</h1>
+        <h3>{data.subtopics[0].subheading}</h3>
+        <ol>{data.subtopics[0].list.map((s) => nestedBullets(s))}</ol>
+        <h3>{data.subtopics[1].subheading}</h3>
+        <ul>{data.subtopics[1].list.map((s) => nestedBullets(s))}</ul>
+        <h3>{data.subtopics[2].subheading}</h3>
+        <ul>{data.subtopics[2].list.map((s) => nestedBullets(s))}</ul>
+        <p>{data.subtopics[2].par}</p>
       </div>
     );
   }

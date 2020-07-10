@@ -1,0 +1,23 @@
+{
+  "header": "Life Insurance",
+  "intro": "Life Insurance ensures that your family is financially taken care of if you die early. Buy life insurance directly (not through your employer) once you have kids.",
+  "subtopics": [
+    {
+      "subheading": "2 Types",
+      "par": "",
+      "list": [
+        "Term Life - pay a low premium and hoping that you don’t have to use it",
+        [
+          "But if you die, you family is taken care of",
+          "Typically buy the longest term possible (30yr insurance) right before the age of 50"
+        ],
+        "Permanent Life - pay a high premium and it lasts forever",
+        [
+          "Generally too expensive to buy",
+          "You might consider this if you earn a lot when you’re young",
+          "Slightly better for taxes"
+        ]
+      ]
+    }
+  ]
+}

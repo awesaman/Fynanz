@@ -1,0 +1,54 @@
+{
+  "header": "Bonds",
+  "intro": "",
+  "subtopics": [
+    {
+      "subheading": "How do companies raise money?",
+      "par": "There are 3 primary methods:",
+      "list": [
+        "Take loans from the bank",
+        " Sell shares in their stock by increasing the total number of shares, but this decreases their EPS ",
+        "Issuing bonds"
+      ]
+    },
+    {
+      "subheading": "What is a Bond?",
+      "par": "Bonds are a way for you to loan money to entities that need money. You receive your money back along with some interest, which is dependent on the federal prime interest rate. They are also known as Credit, Debt, or Fixed Income Investing.",
+      "list": [
+        "Typically around the $100 mark",
+        "The more stable a bond is, the lesser the interest rate",
+        " Must be held for a specified duration, but you can sell it off "
+      ]
+    },
+    {
+      "subheading": "Types of Bonds",
+      "par": "",
+      "list": [
+        "Corporate Bonds (companies) ",
+        "Treasury Bonds (government) ",
+        ["Safest Type of Investment ", "No state income tax on the interest "],
+        "Municipality bonds (non-treasury government bonds)",
+        ["Interest is TAX-EXEMPT "]
+      ]
+    },
+    {
+      "subheading": "Vocabulary + Info",
+      "par": "",
+      "list": [
+        " Bond Interest Rate - interest percent decided when you buy a bond",
+        "Bond yield - percentage yielded based on bonds CURRENT price ",
+        " There is always a competition between bond yields and dividend yield",
+        [
+          " In the short term, bond yields win because that’s their only job",
+          " Bonds are safer than dividend because you will most likely get your money back",
+          "In the long term, dividend investing yields much more"
+        ]
+      ]
+    },
+    {
+      "subheading": "Bond Matrix",
+      "par": "",
+      "list": []
+    }
+  ]
+}

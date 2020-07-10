@@ -101,7 +101,7 @@ class CreditCardsAndLoans extends Component {
                   </ul>
                 </li>
                 <li>
-                  Personal Loans
+                  Personal Loans - interest ≈ 12%
                   <ul>
                     <li>You don't want to owe anyone.</li>
                   </ul>

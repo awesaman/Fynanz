@@ -1,0 +1,48 @@
+{
+  "header": "Car Insurance",
+  "intro": "",
+  "subtopics": [
+    {
+      "subheading": "3 Components",
+      "list": [
+        "Comprehensive (cheapest), which covers",
+        [
+          "Flood",
+          "Theft",
+          "Vandalism",
+          "Hail",
+          "Anything that’s not your fault"
+        ],
+        "Liability, which covers",
+        ["Property Damage", "Bodily Injury"],
+        "Collision (most expensive)",
+        ["Covers you when it’s your fault and your car got damaged"]
+      ]
+    },
+    {
+      "subheading": "Pricing",
+      "list": [
+        "Prices depend on factors like, driving history, credit history, age, sex, family, and your car",
+        "Very good price is $300 per 6 months per car per person",
+        "Usually get a towing service ($5 extra) and a rental service if you don’t have a second car",
+        "Insurance is cheap in California"
+      ]
+    },
+    {
+      "subheading": "Example Insurance",
+      "list": [
+        "Comprehensive and Collision have deductibles",
+        [
+          "A good deductible is $500",
+          "The lower the deductible, the higher the premium"
+        ],
+        "Liability has 3 parts:",
+        [
+          "The 1st number (e.g. 100) means $100k per person in bodily injury",
+          "The 2nd number (e.g. 250) means $250k per accident in bodily injury",
+          "The 3rd number (e.g. 100) means $100k per accident in property damage"
+        ]
+      ]
+    }
+  ]
+}

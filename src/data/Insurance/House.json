@@ -1,0 +1,22 @@
+{
+  "header": "House Insurance",
+  "intro": "House Insurance is the most expensive type of insurance. It covers damages to your house.",
+  "subtopics": [
+    {
+      "subheading": "",
+      "par": "",
+      "list": [
+        "Buy insurance for a house slightly more expensive than your own",
+        [
+          "If you have a 400k house, buy a 450k plan, because you would need about 50k to remove debris before rebuilding"
+        ],
+        "Deductible is typically 1% of your home insurance plan.",
+        "By default, floods and earthquakes are usually not covered",
+        ["Depending on your location, add it through federal government"],
+        "Covers the contents of the house and the structure of the house",
+        ["Generally buy the one that covers the most things (best policy)"],
+        "Anything to do with water may not be covered by your insurance plan, so be careful"
+      ]
+    }
+  ]
+}

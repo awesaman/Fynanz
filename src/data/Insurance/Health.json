@@ -1,0 +1,17 @@
+{
+  "header": "Car Insurance",
+  "intro": "Health Insurance helps you pay for your medical needs. Usually, you get it through your employer, so you should probably just choose one of the options they offer you. They will offer you lower premium for higher deductible and copay, which is probably preferable.",
+  "subtopics": [
+    {
+      "subheading": "",
+      "list": [
+        "Premium - cost of having insurance at all",
+        "Deductible - how much you pay before insurance covers",
+        "Copay - how much you pay at every visit",
+        "Copremium - the percentage of the amount past the deductible that you still have to pay",
+        "Copay on prescription is separate"
+      ],
+      "par": "Generally, go with the low premium, high deductible options unless you already know you have to get a surgery this year."
+    }
+  ]
+}
