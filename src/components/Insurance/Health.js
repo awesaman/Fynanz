@@ -26,8 +26,10 @@ class Health extends Component {
           </li>
           <li>Copay on prescription is separate</li>
         </ul>
-        Generally, go with the low premium, high deductible options unless you
-        already know you have to get a surgery this year.
+        <p>
+          Generally, go with the low premium, high deductible options unless you
+          already know you have to get a surgery this year.
+        </p>
       </div>
     );
   }

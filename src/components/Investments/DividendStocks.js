@@ -39,7 +39,8 @@ class DividendStocks extends Component {
           Always account for stock appreciation, resulting in total return =
           capital appreciation + dividend{" "}
         </li>
-        <img src={Dividend} />
+        <br></br>
+        <img src={Dividend} className="image" />
       </div>
     );
   }
