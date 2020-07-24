@@ -27,9 +27,13 @@
       "list": [
         "Taxable Income - taxed now and investments are also taxed",
         "Tax Deferred Income - the taxes on this income are deferred until your retirement ",
-        ["You are allowed to put up to $19,500 in your 401k contribution "],
+        [
+          "You are allowed to put up to $19,500 in your 401k contribution in 2020"
+        ],
         "Tax Free Income - the taxes on this income are paid now, but the investment gains on that income are not taxed as the investment increases over the years",
-        ["You are allowed to put up to $6,000 in your Roth IRA contribution "]
+        [
+          "You are allowed to put up to $6,000 in your Roth IRA contribution in 2020"
+        ]
       ]
     }
   ]

@@ -13,4 +13,4 @@ https://www.joydeepdeb.com/tools/find-replace.html
 "  replace with "
 {""}  replace with
 
-for filename in *; do mongoimport --uri "mongodb+srv://amansingh:kh0G%21%2Dmongodb@cluster0.jezqf.gcp.mongodb.net/data?retryWrites=true&w=majority" --db data --collection Insurance --file $filename; done
+for filename in *; do mongoimport --uri "mongodb+srv://amansingh:kh0G%21%2Dmongodb@cluster0.jezqf.gcp.mongodb.net/DB?retryWrites=true&w=majority" --db DB --collection Standard --file $filename; done

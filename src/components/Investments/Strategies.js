@@ -1,19 +1,37 @@
-import React, { Component } from "react";
-import Spreads from "../../images/Spreads.jpg";
-import data from "../../data/Investments/Strategies.json";
-import nestedBullets from "../../utils/nestedBullets";
+import Spreads from '../../images/Spreads.jpg';
+import React, { Component, Fragment } from 'react';
+import axios from 'axios';
+import Spinner from '../Spinner';
 
 class Strategies extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { loading: true, data: {} };
   }
+
+  componentWillMount() {
+    axios
+      .get('http://localhost:5000/api/standard/Strategies')
+      .then(response => {
+        this.setState({ data: response.data, loading: false });
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
+
   render() {
     return (
-      <div className="main-body">
-        <h1>{data.header}</h1>
-        <img src={Spreads} className="image-handwritten" />
-      </div>
+      <Fragment>
+        {this.state.loading ? (
+          <Spinner />
+        ) : (
+          <div className='main-body'>
+            <h1>{this.state.data.header}</h1>
+            <img src={Spreads} className='image-handwritten' alt='Loading...' />
+          </div>
+        )}
+      </Fragment>
     );
   }
 }

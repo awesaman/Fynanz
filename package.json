@@ -1,6 +1,6 @@
 {
-  "name": "finance",
-  "version": "0.1.0",
+  "name": "Fynanz",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,7 +17,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "nodemon server --prefix backend",
+    "client": "npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
