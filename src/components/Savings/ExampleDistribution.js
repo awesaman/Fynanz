@@ -1,7 +1,6 @@
 import ExampleDist from '../../images/ExampleDist.jpg';
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
-import nestedBullets from '../../utils/nestedBullets';
 import Spinner from '../Spinner';
 
 class ExampleDistribution extends Component {

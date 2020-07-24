@@ -118,14 +118,11 @@ class Navbar extends Component {
               </Link>
             </li>
             <div className='dropdown'>
-              <Link to='/realestate-rentanapartment' className='dropdown-link'>
-                Rent An Apartment
-              </Link>
               <Link to='/realestate-buyahouse' className='dropdown-link'>
-                Buy a House
+                Buying a House
               </Link>
               <Link to='/realestate-rentoutproperty' className='dropdown-link'>
-                Rent Out Property
+                Renting Out Property
               </Link>
             </div>
           </div>

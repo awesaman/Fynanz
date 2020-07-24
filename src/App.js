@@ -28,10 +28,9 @@ import Retirement from './components/Retirement/Retirement';
 import BucketStrategy from './components/Retirement/BucketStrategy';
 import IncomePlanning from './components/Retirement/IncomePlanning';
 import RealEstate from './components/RealEstate/RealEstate';
-import RentAnApartment from './components/RealEstate/RentAnApartment.js';
 import BuyAHouse from './components/RealEstate/BuyAHouse';
 import RentOutProperty from './components/RealEstate/RentOutProperty';
-import EstatePlanning from './components/EstatePlanning/EstatePlanning';
+import EstatePlanning from './components/Miscellaneous/EstatePlanning';
 
 function App() {
   return (
@@ -68,7 +67,6 @@ function App() {
         <Route path='/retirement-bucketstrategy' component={BucketStrategy} />
         <Route path='/retirement-incomeplanning' component={IncomePlanning} />
         <Route path='/realestate' component={RealEstate} />
-        <Route path='/realestate-rentanapartment' component={RentAnApartment} />
         <Route path='/realestate-buyahouse' component={BuyAHouse} />
         <Route path='/realestate-rentoutproperty' component={RentOutProperty} />
         <Route path='/estateplanning' component={EstatePlanning} />

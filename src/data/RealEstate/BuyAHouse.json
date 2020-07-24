@@ -1,11 +1,62 @@
 {
-  "header": "",
+  "header": "Buying a House",
   "intro": "",
   "subtopics": [
     {
-      "subheading": "",
+      "subheading": "Types of Houses",
       "par": "",
-      "list": []
+      "list": [
+        "Condominium (condo) - essentially an apartment that you own",
+        [
+          "Seems like a good idea because it has lots of cool surrounding things",
+          "Pro - you don’t have to maintain the exterior",
+          "Con - very high community expenses (charged by the Home Owners Association)"
+        ],
+        "Townhouse - 1-3 stories, but attached to other people’s townhouses",
+        ["Cheaper than condos and houses"],
+        "Single Family Houses - the typical house",
+        "Multi-family Complex - for example: duplex, 4-plex, 8-plex",
+        [
+          "If you buy these and rent out the other living spaces, you will receive more in rent than your mortgage"
+        ]
+      ]
+    },
+    {
+      "subheading": "4 Components to Buying a House (PITI)",
+      "par": "The standard these days is that your mortgage will cover all 4 components, but sometimes it will only be the first 2.",
+      "list": [
+        "Principal - portion of the house that you still have to pay off",
+        "Interest - percentage paid of the remaining principal",
+        ["Deductible from your federal income tax upto 10k"],
+        "Tax - property tax levied by your state, city, and county as a percentage of your total property value collected yearly",
+        ["Also deductible from your taxes"],
+        "Insurance"
+      ]
+    },
+    {
+      "subheading": "Refinancing",
+      "par": "",
+      "list": [
+        "When loan interest rates are lower than your original interest rate, you can refinance your mortgage with your bank at that lower rate",
+        "This will significantly lower your mortgage",
+        "It's almost like buying your house again"
+      ]
+    },
+    {
+      "subheading": "Things to Consider",
+      "par": "",
+      "list": [
+        "Generally, you are required to pay ~20% in a down payment (immediate payment; the rest is through mortgage)",
+        "The easiest way to buy a house is by contacting a realtor",
+        [
+          "Credit history matters a lot because you are taking a big loan, and can affect your interest rate",
+          "Price is based on square footage and neighborhood"
+        ],
+        "Location matters",
+        "Nearby public transport is good",
+        "Being near a school is a good, but not too close that it’s a disturbance",
+        "The value of houses slowly increases over time"
+      ]
     }
   ]
 }
