@@ -1,0 +1,26 @@
+{
+  "header": "Asset Allocation",
+  "intro": "Asset Allocation is the diversification of your portfolio amongst asset classes. When your portfolio is diverse, you can ensure a good market return over the long term",
+  "subtopics": [
+    {
+      "subheading": "Asset Classes",
+      "par": "",
+      "list": [
+        "Real Estate",
+        "Cash (0-2% return)",
+        "Stocks (7-8% return)",
+        "Bonds (3-5% return)",
+        "Gold (grows with inflation)",
+        "Commodities (grows with inflation"
+      ]
+    },
+    {
+      "subheading": "What does asset allocation look like?",
+      "par": "You can maximize your returns through asset allocation, where you shift your assets around at the end of each year",
+      "list": [
+        "When stocks go up, generally inflation goes up, gold goes up, but bonds go down",
+        "So at the end of the year, if your stock have increased from 80% to 85%, and your bonds when from 20% to 15%, then you move your assets around so that it’s back to 80-20"
+      ]
+    }
+  ]
+}

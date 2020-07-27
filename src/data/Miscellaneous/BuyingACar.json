@@ -1,0 +1,69 @@
+{
+  "header": "Buying a Car",
+  "intro": "",
+  "subtopics": [
+    {
+      "subheading": "Used Cars",
+      "par": "Cars depreciate very quickly within the first 2 years, so buy one that is 2-3 years old for best value",
+      "list": [
+        "30-40% discount is very good",
+        "The higher the cost of the car, the higher the rate of depreciation",
+        "Never think of a car as investment, only as an expense due to depreciation"
+      ]
+    },
+    {
+      "subheading": "Terms to know",
+      "par": "",
+      "list": [
+        "Prime interest rate - amount that banks can borrow from the federal reserve",
+        [
+          "Right now it’s 0%, so you can buy a car with 2% interest on loan",
+          "You can also get 0% loans from dealerships"
+        ],
+        "MSRP (Manufacturer Suggested Retail Price) - find this online, because dealers add cost on top of this",
+        "Invoice rate - find this online, what the manufacturer charges the dealer",
+        ["Goal is to buy the car at less than the Invoice + $1000"],
+        "2 types of prices given",
+        [
+          "Private market value - price from private entity",
+          "Dealer value - price from dealer (much easier process)"
+        ]
+      ]
+    },
+    {
+      "subheading": "Websites to know",
+      "par": "",
+      "list": [
+        "Make sure you search for car ratings online",
+        ["Consumer Report is a great (paid) resource"],
+        "Use these sites for pricing of cars including used cars",
+        [
+          "Kbb.com",
+          "Edmunds.com",
+          "Nada.com",
+          "Carfax.com",
+          "Vroom.com and Carvana.com and carmax.com are used car dealerships"
+        ],
+        "LandingTree.com and BankRate.com help you find a loan"
+      ]
+    },
+    {
+      "subheading": "Actually buying the car",
+      "par": "",
+      "list": [
+        "3 years of warranty is there for all cars, which covers things that aren’t your fault",
+        "When buying from a private party, test drive, and take it to a mechanic during that time",
+        "Shop for a loan before buying a car, so you can already say you have it set up",
+        [
+          "Again, landingtree.com and bankrate.com help you find a loan",
+          "Credit Unions are one of the best places to get a car loan",
+          ["Be careful because a lot have restrictions on who can be members"],
+          "Used car loans are usually 0.5% higher"
+        ],
+        "If there are options that you want to add, see if you can get it done separate from the dealer",
+        ["Ex: tinting the windows"],
+        "The only place where leasing makes sense is when you’re rich"
+      ]
+    }
+  ]
+}

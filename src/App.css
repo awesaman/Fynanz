@@ -18,17 +18,49 @@ h3 {
   width: 120%;
 }
 
+.trans {
+  position: absolute;
+  top: 75px;
+  opacity: 1;
+  height: 100%;
+  z-index: -1;
+}
+
+.centered {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: navy;
+  z-index: -1;
+}
+
+.big {
+  font-size: 6em;
+}
+
 .main-body {
+  margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: 20%;
   margin-right: 20%;
+  padding: 0;
 }
 
 .main-navbar {
-  position: sticky;
+  position: fixed;
+  top: 0;
+  height: 75px;
+  width: stretch;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: green;
+}
+
+.main-navbar-hamburger {
+  display: none;
 }
 
 .navbar-entry {
@@ -63,7 +95,8 @@ h3 {
 }
 
 .link,
-.dropdown-link {
+.dropdown-link,
+.underlined-link {
   display: inline-block;
   text-decoration: none;
   color: WHITE;
@@ -72,6 +105,12 @@ h3 {
 
 .dropdown-link {
   width: 180px;
+}
+
+.underlined-link {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .dropdown-link:hover {
@@ -95,4 +134,84 @@ th,
 td {
   padding: 15px;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 940px) {
+  /* For mobile phones: */
+  [class*='main-body'] {
+    margin: 5%;
+  }
+  [class*='main-navbar'] {
+    display: none;
+  }
+  [class*='main-navbar-hamburger'] {
+    position: fixed;
+    top: 0;
+    width: stretch;
+    display: flex;
+    align-items: center;
+    background-color: green;
+  }
+
+  [class*='ham'] {
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: stretch;
+  }
+
+  [class*='hamburger'] {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+
+  [class*='myLinks'] {
+    display: none;
+  }
+
+  [class*='drop'] {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  [class*='dropdown'] {
+    display: none;
+    top: 40px;
+    right: 10px;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(5, 176, 5, 0.95);
+  }
+
+  /* Style navigation menu links */
+  [class*='link'] {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  [class*='icon'] {
+    color: white;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar-entry:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .drop:hover .dropdown {
+    display: block;
+  }
+
+  .drop:hover .navbar-entry {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
 }

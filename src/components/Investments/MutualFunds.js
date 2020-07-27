@@ -39,6 +39,16 @@ class MutualFunds extends Component {
             <ul>
               {this.state.data.subtopics[2].list.map(s => nestedBullets(s))}
             </ul>
+            <h3>{this.state.data.subtopics[3].subheading}</h3>
+            <p>{this.state.data.subtopics[3].par}</p>
+            <ul>
+              {this.state.data.subtopics[3].list.map(s => nestedBullets(s))}
+            </ul>
+            <h3>{this.state.data.subtopics[4].subheading}</h3>
+            <p>{this.state.data.subtopics[4].par}</p>
+            <ul>
+              {this.state.data.subtopics[4].list.map(s => nestedBullets(s))}
+            </ul>
           </div>
         )}
       </Fragment>

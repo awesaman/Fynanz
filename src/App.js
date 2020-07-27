@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
 import './App.css';
-
 import Navbar from './components/Navbar';
+import NavbarHamburger from './components/NavbarHamburger';
 import Savings from './components/Savings/Savings';
 import Banking from './components/Savings/Banking';
 import CreditCardsAndLoans from './components/Savings/CreditCardsAndLoans';
@@ -15,6 +14,7 @@ import Bonds from './components/Investments/Bonds';
 import MutualFunds from './components/Investments/MutualFunds';
 import Options from './components/Investments/Options';
 import Strategies from './components/Investments/Strategies';
+import AssetAllocation from './components/Investments/AssetAllocation';
 import Insurance from './components/Insurance/Insurance';
 import House from './components/Insurance/House';
 import Life from './components/Insurance/Life';
@@ -31,12 +31,17 @@ import RealEstate from './components/RealEstate/RealEstate';
 import BuyAHouse from './components/RealEstate/BuyAHouse';
 import RentOutProperty from './components/RealEstate/RentOutProperty';
 import EstatePlanning from './components/Miscellaneous/EstatePlanning';
+import BuyingACar from './components/Miscellaneous/BuyingACar';
+import EmployeeBenefits from './components/Miscellaneous/EmployeeBenefits';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+        <NavbarHamburger />
+        <Route exact path='/' component={Landing} />
         <Route path='/savings' component={Savings} />
         <Route path='/savings-banking' component={Banking} />
         <Route
@@ -54,6 +59,10 @@ function App() {
         <Route path='/investments-mutualfunds' component={MutualFunds} />
         <Route path='/investments-options' component={Options} />
         <Route path='/investments-strategies' component={Strategies} />
+        <Route
+          path='/investments-assetallocation'
+          component={AssetAllocation}
+        />
         <Route path='/insurance' component={Insurance} />
         <Route path='/insurance-house' component={House} />
         <Route path='/insurance-life' component={Life} />
@@ -69,7 +78,9 @@ function App() {
         <Route path='/realestate' component={RealEstate} />
         <Route path='/realestate-buyahouse' component={BuyAHouse} />
         <Route path='/realestate-rentoutproperty' component={RentOutProperty} />
-        <Route path='/estateplanning' component={EstatePlanning} />
+        <Route path='/misc-estateplanning' component={EstatePlanning} />
+        <Route path='/misc-buyingacar' component={BuyingACar} />
+        <Route path='/misc-employeebenefits' component={EmployeeBenefits} />
       </div>
     </Router>
   );

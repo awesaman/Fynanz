@@ -11,7 +11,7 @@ class CreditCardsAndLoans extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/table/Credit%20Cards%20and%20Loans')
+      .get('http://localhost:5000/api/standard/Credit%20Cards%20and%20Loans')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })
@@ -31,43 +31,43 @@ class CreditCardsAndLoans extends Component {
             <h3>{this.state.data.subtopics[0].subheading}</h3>
             <table>
               <tr>
-                <th>{this.state.data.subtopics[0].table.topleft}</th>
-                <th>{this.state.data.subtopics[0].table.topright}</th>
+                <th>{this.state.data.subtopics[0].par}</th>
+                <th>{this.state.data.subtopics[1].par}</th>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    {this.state.data.subtopics[0].table.bottomleft.map(s =>
+                    {this.state.data.subtopics[0].list.map(s =>
                       nestedBullets(s)
                     )}
                   </ul>
                 </td>
                 <td>
                   <ul>
-                    {this.state.data.subtopics[0].table.bottomright.map(s =>
+                    {this.state.data.subtopics[1].list.map(s =>
                       nestedBullets(s)
                     )}
                   </ul>
                 </td>
               </tr>
             </table>
-            <h3>{this.state.data.subtopics[1].subheading}</h3>
+            <h3>{this.state.data.subtopics[2].subheading}</h3>
             <table>
               <tr>
-                <th>{this.state.data.subtopics[1].table.topleft}</th>
-                <th>{this.state.data.subtopics[1].table.topright}</th>
+                <th>{this.state.data.subtopics[2].par}</th>
+                <th>{this.state.data.subtopics[3].par}</th>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    {this.state.data.subtopics[1].table.bottomleft.map(s =>
+                    {this.state.data.subtopics[2].list.map(s =>
                       nestedBullets(s)
                     )}
                   </ul>
                 </td>
                 <td>
                   <ul>
-                    {this.state.data.subtopics[1].table.bottomright.map(s =>
+                    {this.state.data.subtopics[3].list.map(s =>
                       nestedBullets(s)
                     )}
                   </ul>

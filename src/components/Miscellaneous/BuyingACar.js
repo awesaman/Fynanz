@@ -11,7 +11,7 @@ class BuyingACar extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Estate%20Planning')
+      .get('http://localhost:5000/api/standard/Buying%20a%20Car')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })
@@ -28,7 +28,6 @@ class BuyingACar extends Component {
         ) : (
           <div className='main-body'>
             <h1>{this.state.data.header}</h1>
-            <p>{this.state.data.intro}</p>
             <h3>{this.state.data.subtopics[0].subheading}</h3>
             <p>{this.state.data.subtopics[0].par}</p>
             <ul>
@@ -38,9 +37,13 @@ class BuyingACar extends Component {
             <ul>
               {this.state.data.subtopics[1].list.map(s => nestedBullets(s))}
             </ul>
-            <p>{this.state.data.subtopics[2].par}</p>
+            <h3>{this.state.data.subtopics[2].subheading}</h3>
             <ul>
               {this.state.data.subtopics[2].list.map(s => nestedBullets(s))}
+            </ul>
+            <h3>{this.state.data.subtopics[3].subheading}</h3>
+            <ul>
+              {this.state.data.subtopics[3].list.map(s => nestedBullets(s))}
             </ul>
           </div>
         )}

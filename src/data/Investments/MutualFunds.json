@@ -31,6 +31,45 @@
         "Only 10 - 15 % of mutual funds do this consistently",
         "Only choose those who have been successful over a long period of time (3,5,10,15 year ranges)"
       ]
+    },
+    {
+      "subheading": "Capital Gains Distribution",
+      "par": "Mutual Funds are required to give you their Capital Gains Distribution - the sum of all the money they made from active trading. This seems like a good thing, but it really ends up with you not making as much money",
+      "list": [
+        "First, think about the when you sell a stock vs. hold a stock for longer",
+        [
+          "Realized Gains - Profit that has been taken from buying and selling a stock",
+          "Unrealized Gains - you have the stock, but have not sold it yet"
+        ],
+        "You must pay taxes on the following components of realized gains as taxable income (it is a permanent loss)",
+        [
+          "Long term capital gains - gains from the portion of the mutual fund that been held for more than 1 year",
+          "Short term capital gains - gains from the portion of the mutual fund made this year",
+          "Dividends - gains from dividend"
+        ],
+        "This is exacerbated by active mutual funds because they keep on buying and selling rather than letting it grow over the long term. ",
+        "Passive mutual funds have a MUCH MUCH lower Capital Gains Distribution",
+        "If you own a stock yourself, you only have to pay taxes on dividend",
+        [
+          "But in a mutual fund you pay taxes on the 3 components of capital gains distribution every year"
+        ],
+        "For long term stocks, even if you are reinvesting the remaining portion of the CGD, you are missing out on the potential gains from the part you were forced to pay in taxes every year",
+        [
+          "Account for this when you are evaluating a mutual fund (e.g. 9% return is decreased because they keep on giving you back the CGD every year"
+        ]
+      ]
+    },
+    {
+      "subheading": "Hedge Funds",
+      "par": "Hedge Funds are not mutual funds, but they are the same in concept. To hedge means to protect, so their goal is to NOT lose money.",
+      "list": [
+        "Meant for accredited investors - there is a certain financial standard which you must meet (high net worth)",
+        "Costs about 2% upfront and they take 20% of the profits",
+        "They use specific strategies to decrease loss",
+        [
+          "They buy puts to insure themselves if the market goes down, but then they invest very aggressively"
+        ]
+      ]
     }
   ]
 }
