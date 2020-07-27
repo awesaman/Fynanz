@@ -2,7 +2,7 @@ import Dividend from '../../images/Dividend.png';
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import nestedBullets from '../../utils/nestedBullets';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 
 class DividendStocks extends Component {
   constructor(props) {

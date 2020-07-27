@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
-import NavbarHamburger from './components/NavbarHamburger';
+import Navbar from './components/General/Navbar';
+import NavbarHamburger from './components/General/NavbarHamburger';
 import Savings from './components/Savings/Savings';
 import Banking from './components/Savings/Banking';
 import CreditCardsAndLoans from './components/Savings/CreditCardsAndLoans';
@@ -33,7 +33,7 @@ import RentOutProperty from './components/RealEstate/RentOutProperty';
 import EstatePlanning from './components/Miscellaneous/EstatePlanning';
 import BuyingACar from './components/Miscellaneous/BuyingACar';
 import EmployeeBenefits from './components/Miscellaneous/EmployeeBenefits';
-import Landing from './components/Landing';
+import Landing from './components/General/Landing';
 
 function App() {
   return (

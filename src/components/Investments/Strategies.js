@@ -1,7 +1,7 @@
 import Spreads from '../../images/Spreads.jpg';
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 
 class Strategies extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import nestedBullets from '../../utils/nestedBullets';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 import Mortgage from '../../images/Mortgage.png';
 
 class RealEstate extends Component {

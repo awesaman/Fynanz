@@ -7,6 +7,10 @@ h3 {
   font-size: 1.5em;
 }
 
+.whole {
+  background-color: rgb(140, 202, 204);
+}
+
 .logo {
   height: 20px;
 }
@@ -21,7 +25,7 @@ h3 {
 .trans {
   position: absolute;
   top: 75px;
-  opacity: 1;
+  opacity: 0.4;
   height: 100%;
   z-index: -1;
 }
@@ -29,7 +33,7 @@ h3 {
 .centered {
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: navy;
@@ -41,6 +45,7 @@ h3 {
 }
 
 .main-body {
+  font-family: 'Raleway';
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 20%;
@@ -61,6 +66,12 @@ h3 {
 
 .main-navbar-hamburger {
   display: none;
+}
+
+.decor {
+  text-decoration: none;
+  text-decoration: green;
+  text-decoration: underline;
 }
 
 .navbar-entry {
@@ -141,6 +152,14 @@ td {
   [class*='main-body'] {
     margin: 5%;
   }
+  [class*='centered'] {
+    bottom: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  [class*='trans'] {
+    width: 100%;
+  }
   [class*='main-navbar'] {
     display: none;
   }
@@ -164,7 +183,7 @@ td {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   [class*='myLinks'] {

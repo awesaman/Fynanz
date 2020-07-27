@@ -2,7 +2,7 @@ import BondMatrix from '../../images/BondMatrix.jpg';
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import nestedBullets from '../../utils/nestedBullets';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 
 class Bonds extends Component {
   constructor(props) {

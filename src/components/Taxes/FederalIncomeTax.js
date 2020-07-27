@@ -3,7 +3,7 @@ import axios from 'axios';
 import TaxTable from '../../images/TaxTable.png';
 import TaxBrackets from '../../images/TaxBrackets.png';
 import nestedBullets from '../../utils/nestedBullets';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 
 class FederalIncomeTax extends Component {
   constructor(props) {

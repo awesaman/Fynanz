@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 import bucketStrategy from '../../images/BucketStrategy.jpg';
 
 class BucketStrategy extends Component {

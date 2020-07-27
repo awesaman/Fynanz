@@ -4,7 +4,7 @@ import SellPutSellCall from '../../images/SellPutSellCall.jpg';
 import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import nestedBullets from '../../utils/nestedBullets';
-import Spinner from '../Spinner';
+import Spinner from '../General/Spinner';
 
 class Options extends Component {
   constructor(props) {
