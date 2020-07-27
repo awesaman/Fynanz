@@ -11,7 +11,7 @@ class StockTax extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Taxes%20on%20Investments')
+      .get('/api/standard/Taxes%20on%20Investments')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

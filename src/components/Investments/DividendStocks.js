@@ -12,7 +12,7 @@ class DividendStocks extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Dividend%20Stocks')
+      .get('/api/standard/Dividend%20Stocks')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

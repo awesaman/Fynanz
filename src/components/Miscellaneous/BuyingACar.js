@@ -11,7 +11,7 @@ class BuyingACar extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Buying%20a%20Car')
+      .get('/api/standard/Buying%20a%20Car')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

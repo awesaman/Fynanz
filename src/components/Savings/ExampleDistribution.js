@@ -11,7 +11,7 @@ class ExampleDistribution extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Example%20Distribution')
+      .get('/api/standard/Example%20Distribution')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

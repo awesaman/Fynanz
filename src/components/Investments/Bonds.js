@@ -12,7 +12,7 @@ class Bonds extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Bonds')
+      .get('/api/standard/Bonds')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

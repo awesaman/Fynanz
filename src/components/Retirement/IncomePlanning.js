@@ -11,7 +11,7 @@ class IncomePlanning extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Retirement%20Income%20Planning')
+      .get('/api/standard/Retirement%20Income%20Planning')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

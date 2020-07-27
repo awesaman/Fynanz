@@ -11,7 +11,7 @@ class MutualFunds extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Mutual%20Funds')
+      .get('/api/standard/Mutual%20Funds')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

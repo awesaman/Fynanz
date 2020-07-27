@@ -11,7 +11,7 @@ class Strategies extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Strategies')
+      .get('/api/standard/Strategies')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

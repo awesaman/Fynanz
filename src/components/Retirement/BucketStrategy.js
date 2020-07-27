@@ -11,7 +11,7 @@ class BucketStrategy extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/The%20Bucket%20Strategy')
+      .get('/api/standard/The%20Bucket%20Strategy')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

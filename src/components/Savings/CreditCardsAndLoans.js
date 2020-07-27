@@ -11,7 +11,7 @@ class CreditCardsAndLoans extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Credit%20Cards%20and%20Loans')
+      .get('/api/standard/Credit%20Cards%20and%20Loans')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

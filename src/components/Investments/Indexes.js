@@ -11,7 +11,7 @@ class Indexes extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Indexes')
+      .get('/api/standard/Indexes')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

@@ -11,7 +11,7 @@ class Savings extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Savings')
+      .get('/api/standard/Savings')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

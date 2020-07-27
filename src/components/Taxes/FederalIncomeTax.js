@@ -13,7 +13,7 @@ class FederalIncomeTax extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Federal%20Income%20Tax')
+      .get('/api/standard/Federal%20Income%20Tax')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

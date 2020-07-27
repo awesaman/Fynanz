@@ -14,7 +14,7 @@ class Options extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Options')
+      .get('/api/standard/Options')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

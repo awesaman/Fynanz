@@ -147,7 +147,7 @@ td {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 975px) {
   /* For mobile phones: */
   [class*='main-body'] {
     margin: 5%;

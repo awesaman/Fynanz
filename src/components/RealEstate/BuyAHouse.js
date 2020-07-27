@@ -11,7 +11,7 @@ class BuyAHouse extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Buying%20a%20House')
+      .get('/api/standard/Buying%20a%20House')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

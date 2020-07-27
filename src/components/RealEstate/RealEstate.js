@@ -12,7 +12,7 @@ class RealEstate extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Real%20Estate')
+      .get('/api/standard/Real%20Estate')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

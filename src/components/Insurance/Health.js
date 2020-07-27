@@ -11,7 +11,7 @@ class Health extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Health%20Insurance')
+      .get('/api/standard/Health%20Insurance')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

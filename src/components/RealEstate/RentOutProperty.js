@@ -11,7 +11,7 @@ class RentOutProperty extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Renting%20Out%20Property')
+      .get('/api/standard/Renting%20Out%20Property')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

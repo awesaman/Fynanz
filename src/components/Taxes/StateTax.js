@@ -11,7 +11,7 @@ class StateTax extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/State%20Tax')
+      .get('/api/standard/State%20Tax')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

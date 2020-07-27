@@ -11,7 +11,7 @@ class EmployeeBenefits extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Employee%20Benefits')
+      .get('/api/standard/Employee%20Benefits')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

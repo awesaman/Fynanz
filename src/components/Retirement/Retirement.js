@@ -12,7 +12,7 @@ class Retirement extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Retirement%20Savings')
+      .get('/api/standard/Retirement%20Savings')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

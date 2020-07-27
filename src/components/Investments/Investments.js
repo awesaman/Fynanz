@@ -12,7 +12,7 @@ class Investments extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/Investments')
+      .get('/api/standard/Investments')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })

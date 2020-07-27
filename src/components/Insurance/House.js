@@ -11,7 +11,7 @@ class House extends Component {
 
   componentWillMount() {
     axios
-      .get('http://localhost:5000/api/standard/House%20Insurance')
+      .get('/api/standard/House%20Insurance')
       .then(response => {
         this.setState({ data: response.data, loading: false });
       })
