@@ -27,7 +27,6 @@ class Savings extends Component {
           <Spinner />
         ) : (
           <div className='main-body'>
-            console.log({this.state.data.header})
             <h1>{this.state.data.header}</h1>
             <h3>{this.state.data.subtopics[0].subheading}</h3>
             <p>{this.state.data.subtopics[0].par}</p>
