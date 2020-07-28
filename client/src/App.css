@@ -125,9 +125,6 @@ h3 {
 .dropdown-link:hover {
   background-color: rgba(0, 170, 0, 0.95);
 }
-.stock {
-  z-index: -1;
-}
 
 table {
   width: 100%;
