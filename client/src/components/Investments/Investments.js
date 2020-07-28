@@ -66,8 +66,14 @@ class Investments extends Component {
             <ul>
               {this.state.data.subtopics[1].list.map(s => nestedBullets(s))}
             </ul>
-            <h3>An Example Stock</h3>
+            <h3>{this.state.data.subtopics[2].subheading}</h3>
+            <p>{this.state.data.subtopics[2].par}</p>
+            <ul>
+              {this.state.data.subtopics[2].list.map(s => nestedBullets(s))}
+            </ul>
+
             <Plot
+              className='stock'
               data={[
                 {
                   x: this.state.xvalues,

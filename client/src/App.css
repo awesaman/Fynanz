@@ -125,6 +125,9 @@ h3 {
 .dropdown-link:hover {
   background-color: rgba(0, 170, 0, 0.95);
 }
+.stock {
+  z-index: -1;
+}
 
 table {
   width: 100%;
@@ -145,8 +148,8 @@ td {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 975px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 980px) {
+  /* For mobile devices: */
   [class*='main-body'] {
     margin: 5%;
   }
