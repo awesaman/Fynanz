@@ -3,11 +3,7 @@ let Standard = require('../../models/standard.model');
 
 router.get('/', async (req, res) => {
   try {
-    const doc = await Standard.find();
-    if (!doc) {
-      return res.status(404).json({ msg: 'Doc not found' });
-    }
-    res.json(doc);
+    res.send('Page is working');
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server error');
