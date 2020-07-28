@@ -37,7 +37,9 @@ class Landing extends Component {
               <Link className='decor' to='/retirement'>
                 Retirement
               </Link>
-              , and{' '}
+            </strong>
+            , and{' '}
+            <strong>
               <Link className='decor' to='/realestate'>
                 Real Estate
               </Link>
