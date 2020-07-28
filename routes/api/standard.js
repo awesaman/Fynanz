@@ -23,19 +23,4 @@ router.get('/:header', async (req, res) => {
   }
 });
 
-router.post('/', async (req, res) => {
-  const { header } = req.body;
-  try {
-    let doc = await Standard.findOneAndUpdate(
-      { header },
-      { $set: req.body },
-      { new: true, upsert: true }
-    );
-    res.json(doc);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
-  }
-});
-
 module.exports = router;
