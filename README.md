@@ -29,7 +29,7 @@ Runs both the server-side and client-side concurrently.<br />
 ### Author
 
 Aman Singh<br />
-[Linkedin](www.linkedin.com/in/aman-singh-turing)
+[Linkedin](https://www.linkedin.com/in/aman-singh-turing)
 
 ### Version
 
