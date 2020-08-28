@@ -4,7 +4,7 @@ This project has the goal of helping others become more financially literate. It
 
 ## Website Link
 
-Please visit the deployed application at [https://fynanz.herokuapp.com/](https://fynanz.herokuapp.com/)
+Please visit the deployed application [here](https://fynanz.herokuapp.com/)
 
 ## Available Scripts
 
